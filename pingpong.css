@@ -1,0 +1,32 @@
+#game-board {
+  width: 600px;
+  height: 400px;
+  background-color: #000;
+  position: relative;
+}
+
+#left-paddle, #right-paddle {
+  width: 20px;
+  height: 80px;
+  background-color: #fff;
+  position: absolute;
+  top: 160px;
+}
+
+#left-paddle {
+  left: 20px;
+}
+
+#right-paddle {
+  right: 20px;
+}
+
+#ball {
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 190px;
+  left: 290px;
+}
